@@ -1,0 +1,73 @@
+/* the tag selector*/
+body {
+
+    background-color:rgb(198,228,218);
+}
+img {
+    border-radius: 100px;
+    height: 120px;
+    width: 120px;
+}
+p{
+    color: red;
+}
+/*class selector*/
+.first_para{
+    color: red;
+}
+.red_apple{
+    background-color: black;
+}
+.green_apple{
+    background-color: red;
+}
+/*id selector */
+#special{
+    font-weight: bold;
+    color: coral;
+    background-color: black;
+}
+/*grouping the selectors*/
+.ek , h1
+{ font-weight: bold;
+    color: coral;
+    background-color: black;
+}
+.apple{
+    color: brown;
+}
+.app:hover{
+    background-color: aqua;
+    color: blue;
+    font: bolder;
+}
+.square100{
+    height: 100px;
+    width: 100px;
+    
+}
+.firstbox{
+    background-color: aqua;
+    /*margin-inline-start: 0px;*/
+    position: relative;
+  /*  margin-bottom:-70px;*/
+    margin-left: 0px;
+    margin-top:-70px;
+}
+.secondbox{
+    background-color: green;
+    /*margin-inline-start: 100px;*/
+    position: relative;
+   /* margin-bottom: -80px;*/
+   margin-top:-60px;
+    margin-left: 25px;
+}
+.thirdbox{
+    background-color: yellowgreen;
+    /*margin-inline-start: 200px;*/
+    position: relative;
+   /* margin-bottom: -90px;*/
+   margin-top:-50px;
+    margin-left: 50px;
+    
+}
